@@ -18,7 +18,7 @@ end
 
 def long_planeteer_calls(array) code an argument here
   # Your code here
-  array.all? do |elmnt|
+  array.any? do |elmnt|
     elmnt.length > 4
   end
   
