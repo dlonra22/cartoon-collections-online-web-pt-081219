@@ -19,7 +19,7 @@ end
 def long_planeteer_calls(array) code an argument here
   # Your code here
   array.any? do |elmnt|
-    elmnt.length > 4
+    elmnt.size > 4
   end
 end
 
