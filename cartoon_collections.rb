@@ -10,7 +10,7 @@ end
 def summon_captain_planet(array)# code an argument here
   # Your code here
   cnt = 0
-  newarray
+  newarray = []
   array.map do |elmnt|
     newarray << elmnt.capitalize +"!"
   end
