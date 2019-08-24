@@ -14,6 +14,7 @@ def summon_captain_planet(array)# code an argument here
     array[cnt] = elmnt.capitalize +"!"
     cnt+=1 
   end
+  array
 end
 
 def long_planeteer_calls# code an argument here
