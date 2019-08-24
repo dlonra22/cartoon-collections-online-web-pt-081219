@@ -12,7 +12,8 @@ def summon_captain_planet(array)# code an argument here
   cnt = 0 
   array.map do |elmnt|
     array[cnt] = elmnt.capitalize +"!"
-    cnt+=1
+    cnt+=1 
+  end
 end
 
 def long_planeteer_calls# code an argument here
